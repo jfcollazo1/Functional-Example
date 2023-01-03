@@ -5,7 +5,7 @@ import os
 import openai
 app = Flask(__name__)
 
-openai.api_key = os.getenv('Insert-key-here')
+openai.api_key = os.getenv('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')
 completion = openai.Completion()
 
 start_sequence = """\nQoom:"""
